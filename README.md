@@ -1,5 +1,7 @@
 # 全国村界数据集 / China Village Boundaries Dataset
 
+**中文** | [English](README.en.md)
+
 ## 概述
 
 中国全国范围的村级行政边界空间数据（Shapefile 格式），覆盖 33 个省级行政区划单位，包含约 87.5 万条村级边界记录。
