@@ -14,7 +14,7 @@
   "crs": "WGS84 (EPSG:4326)",
   "encoding_notes": {
     "default": "UTF-8 (.cpg declares UTF-8 for all 58 datasets)",
-    "mixed_encoding": "河北村界、河南村界: field names are UTF-8 but field values are GBK. GIS software using .cpg will show correct field names but garbled values, or vice versa.",
+    "mixed_encoding": "河北村界、河南村界、陕西村界（4 个数据集）: field names are UTF-8 but field values are GBK. GIS software using .cpg will show correct field names but garbled values, or vice versa.",
     "truncated_field_names": "广东全省、上海2套: some UTF-8 Chinese field names truncated at DBF 11-byte limit"
   },
   "total_provinces": 33,
