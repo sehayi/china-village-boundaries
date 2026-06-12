@@ -20,3 +20,41 @@ Desktop.ini
 
 # OS metadata
 __MACOSX/
+
+# Release build artifacts (not committed — built locally, uploaded to GitHub Releases)
+release-assets/
+
+# Data directories (Shapefile data — distributed via GitHub Releases, not git)
+上海村界/
+云南村界/
+内蒙村界/
+北京村界/
+吉林村界/
+四川村界/
+天津村界/
+宁夏村界/
+安徽村界/
+山东村界/
+山西村界/
+广东村界/
+广西村界/
+新疆村界/
+江苏村界/
+江西村界/
+河北村界/
+河南村界/
+浙江村界/
+海南村界/
+湖北村界/
+湖南村界/
+澳门堂区统计区/
+甘肃村界/
+福建村界/
+西藏村界/
+贵州村界/
+辽宁村界/
+重庆村界/
+陕西村界/
+青海村界/
+香港选区统计区单元区/
+黑龙江村界-林业局界/

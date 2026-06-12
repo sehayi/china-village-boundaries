@@ -11,8 +11,15 @@
   "license": "CC0-1.0",
   "copyright_status": "unclear, collected from internet sources",
   "format": "ESRI Shapefile",
+  "crs": "WGS84 (EPSG:4326)",
+  "encoding_notes": {
+    "default": "UTF-8 (.cpg declares UTF-8 for all 58 datasets)",
+    "mixed_encoding": "河北村界、河南村界: field names are UTF-8 but field values are GBK. GIS software using .cpg will show correct field names but garbled values, or vice versa.",
+    "truncated_field_names": "广东全省、上海2套: some UTF-8 Chinese field names truncated at DBF 11-byte limit"
+  },
   "total_provinces": 33,
-  "total_records": 909365,
+  "total_datasets": 58,
+  "total_records": 875140,
   "provinces": {
     "上海村界": {
       "datasets": [
@@ -238,7 +245,13 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8 (11 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "11 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         },
         {
@@ -463,7 +476,13 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8 (11 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "11 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         },
         {
@@ -543,7 +562,11 @@
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         }
       ],
@@ -623,7 +646,11 @@
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         }
       ],
@@ -635,7 +662,7 @@
           "file": "内蒙村界/内蒙古自治区村界WGS84.shp",
           "name": "内蒙古自治区村界WGS84.shp",
           "records": 14570,
-          "dbf_date": "2023-06-20",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -688,14 +715,18 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
           "file": "内蒙村界/内蒙村界2000坐标/内蒙古村界2000坐标.shp",
           "name": "内蒙古村界2000坐标.shp",
           "records": 14570,
-          "dbf_date": "2023-08-29",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID_1",
@@ -704,7 +735,7 @@
             },
             {
               "name": "OBJECTID",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
@@ -754,17 +785,21 @@
             },
             {
               "name": "Shape_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
               "name": "Shape_Area",
-              "type": "F",
+              "type": "N",
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 29140
@@ -803,7 +838,11 @@
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         }
       ],
@@ -898,7 +937,13 @@
               "length": 20
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8 (7 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "7 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         }
       ],
@@ -910,7 +955,7 @@
           "file": "四川村界/四川省_村界.shp",
           "name": "四川省_村界.shp",
           "records": 41297,
-          "dbf_date": "2023-07-13",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "市级",
@@ -953,8 +998,14 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8 (8 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "8 field names truncated at 11 bytes"
+            ]
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 41297
@@ -965,7 +1016,7 @@
           "file": "天津村界/天津市各村居2021.shp",
           "name": "天津市各村居2021.shp",
           "records": 5847,
-          "dbf_date": "2022-08-13",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "FID",
@@ -1098,8 +1149,12 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 5847
@@ -1110,7 +1165,7 @@
           "file": "宁夏村界/宁夏回族自治区村界2021.shp",
           "name": "宁夏回族自治区村界2021.shp",
           "records": 2947,
-          "dbf_date": "2023-04-16",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "村名",
@@ -1158,8 +1213,14 @@
               "length": 20
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8 (7 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "7 field names truncated at 11 bytes"
+            ]
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 2947
@@ -1170,7 +1231,7 @@
           "file": "安徽村界/安徽省村居界4490.shp",
           "name": "安徽省村居界4490.shp",
           "records": 17848,
-          "dbf_date": "2023-05-25",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -1228,8 +1289,12 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 17848
@@ -1240,7 +1305,7 @@
           "file": "山东村界/山东村边界.shp",
           "name": "山东村边界.shp",
           "records": 85879,
-          "dbf_date": "2023-06-28",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -1259,12 +1324,12 @@
             },
             {
               "name": "SHAPE_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
               "name": "SHAPE_Area",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
@@ -1273,18 +1338,22 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "Krasovsky_1940_Albers"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         },
         {
           "file": "山东村界/山东村边界（修正版）.shp",
           "name": "山东村边界（修正版）.shp",
           "records": 85879,
-          "dbf_date": "2024-03-03",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "XZQDM",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
@@ -1298,17 +1367,17 @@
               "length": 50
             },
             {
-              "name": "市代码_1",
+              "name": "市代码_",
               "type": "C",
               "length": 10
             },
             {
-              "name": "县代码_1",
+              "name": "县代码_",
               "type": "C",
               "length": 10
             },
             {
-              "name": "镇代码_1",
+              "name": "镇代码_",
               "type": "C",
               "length": 50
             },
@@ -1318,28 +1387,32 @@
               "length": 50
             },
             {
-              "name": "县区名_1",
+              "name": "县区名_",
               "type": "C",
               "length": 50
             },
             {
-              "name": "乡镇名_1",
+              "name": "乡镇名_",
               "type": "C",
-              "length": 50
+              "length": 51
             },
             {
               "name": "Shape_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
               "name": "Shape_Area",
-              "type": "F",
+              "type": "N",
               "length": 19
             }
           ],
-          "encoding": "CP936",
-          "crs": "Krasovsky_1940_Albers"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 171758
@@ -1418,7 +1491,13 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8 (10 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "10 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         }
       ],
@@ -1430,11 +1509,11 @@
           "file": "广东村界/中山市村边界/中山市.shp",
           "name": "中山市.shp",
           "records": 292,
-          "dbf_date": "2023-05-06",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "FID_1",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
@@ -1449,22 +1528,26 @@
             },
             {
               "name": "Shape_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
           "file": "广东村界/遂溪县村边界/遂溪县.shp",
           "name": "遂溪县.shp",
           "records": 272,
-          "dbf_date": "2023-05-12",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "FID_1",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
@@ -1479,22 +1562,26 @@
             },
             {
               "name": "Shape_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
           "file": "广东村界/惠州市/惠州数据.shp",
           "name": "惠州数据.shp",
           "records": 1514,
-          "dbf_date": "2023-05-08",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "FID_1",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
@@ -1509,18 +1596,22 @@
             },
             {
               "name": "Shape_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
           "file": "广东村界/广东全省/广东省CJ.shp",
           "name": "广东省CJ.shp",
           "records": 26245,
-          "dbf_date": "2024-03-03",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -1574,51 +1665,51 @@
             },
             {
               "name": "Shape_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
               "name": "Shape_Area",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
-              "name": "省级区划代",
+              "name": "鐪佺骇鍖哄",
               "type": "N",
               "length": 16
             },
             {
-              "name": "省级名称",
+              "name": "鐪佺骇鍚嶇",
               "type": "C",
               "length": 254
             },
             {
-              "name": "市级区划代",
+              "name": "甯傜骇鍖哄",
               "type": "N",
               "length": 16
             },
             {
-              "name": "市级名称",
+              "name": "甯傜骇鍚嶇",
               "type": "C",
               "length": 254
             },
             {
-              "name": "区县级区划",
+              "name": "鍖哄幙绾у",
               "type": "N",
               "length": 16
             },
             {
-              "name": "区县名称",
+              "name": "鍖哄幙鍚嶇",
               "type": "C",
               "length": 254
             },
             {
-              "name": "乡镇级区划",
+              "name": "涔￠晣绾у",
               "type": "N",
               "length": 16
             },
             {
-              "name": "乡镇街道名",
+              "name": "涔￠晣琛楅",
               "type": "C",
               "length": 254
             },
@@ -1628,7 +1719,13 @@
               "length": 254
             }
           ],
-          "encoding": "CP936",
+          "encoding": {
+            "field_names": "UTF-8 (8 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "8 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         }
       ],
@@ -1640,7 +1737,7 @@
           "file": "广西村界/广西壮族自治区村居界4490.shp",
           "name": "广西壮族自治区村居界4490.shp",
           "records": 21403,
-          "dbf_date": "2023-05-27",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -1668,8 +1765,12 @@
               "length": 60
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 21403
@@ -1798,7 +1899,11 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         }
       ],
@@ -1810,7 +1915,7 @@
           "file": "江苏村界/江苏省行政村.shp",
           "name": "江苏省行政村.shp",
           "records": 22841,
-          "dbf_date": "2023-04-13",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -1874,12 +1979,16 @@
             },
             {
               "name": "area",
-              "type": "F",
+              "type": "N",
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 22841
@@ -1890,7 +1999,7 @@
           "file": "江西村界/江西省村界-旧 缺失南昌市部分等/江西省村界WGS84.shp",
           "name": "江西省村界WGS84.shp",
           "records": 20421,
-          "dbf_date": "2023-06-03",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "gml_id",
@@ -1923,8 +2032,12 @@
               "length": 10
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "GEOGCS[\"WGS 84\", DATUM[\"World Geodetic System 1984\", SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AU"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         },
         {
           "file": "江西村界/江西省村界-新/江西CJ.shp",
@@ -1958,7 +2071,11 @@
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         }
       ],
@@ -2038,7 +2155,13 @@
               "length": 19
             }
           ],
-          "encoding": "CP936",
+          "encoding": {
+            "field_names": "UTF-8 (8 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "8 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         }
       ],
@@ -2128,7 +2251,13 @@
               "length": 19
             }
           ],
-          "encoding": "CP936",
+          "encoding": {
+            "field_names": "UTF-8 (8 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "8 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         }
       ],
@@ -2140,7 +2269,7 @@
           "file": "浙江村界/1浙江省村界/浙江村界.shp",
           "name": "浙江村界.shp",
           "records": 34225,
-          "dbf_date": "2023-07-30",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "objectid",
@@ -2168,14 +2297,18 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         },
         {
           "file": "浙江村界/2浙江省村界1/浙江村界.shp",
           "name": "浙江村界.shp",
           "records": 34225,
-          "dbf_date": "2023-10-06",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "省级",
@@ -2214,13 +2347,13 @@
             },
             {
               "name": "省代码",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
               "name": "村级",
               "type": "C",
-              "length": 50
+              "length": 66
             },
             {
               "name": "村代码",
@@ -2228,71 +2361,17 @@
               "length": 254
             }
           ],
-          "encoding": "CP936",
-          "crs": "CGCS2000"
-        },
-        {
-          "file": "浙江村界/3浙江村界-备注省市县乡/浙江村界.shp",
-          "name": "浙江村界.shp",
-          "records": 34225,
-          "dbf_date": "2023-10-06",
-          "fields": [
-            {
-              "name": "省级",
-              "type": "C",
-              "length": 254
-            },
-            {
-              "name": "市级",
-              "type": "C",
-              "length": 254
-            },
-            {
-              "name": "市代码",
-              "type": "C",
-              "length": 254
-            },
-            {
-              "name": "区县级",
-              "type": "C",
-              "length": 254
-            },
-            {
-              "name": "区县码",
-              "type": "C",
-              "length": 254
-            },
-            {
-              "name": "乡镇级",
-              "type": "C",
-              "length": 254
-            },
-            {
-              "name": "乡镇码",
-              "type": "C",
-              "length": 254
-            },
-            {
-              "name": "省代码",
-              "type": "F",
-              "length": 19
-            },
-            {
-              "name": "村级",
-              "type": "C",
-              "length": 50
-            },
-            {
-              "name": "村代码",
-              "type": "C",
-              "length": 254
-            }
-          ],
-          "encoding": "CP936",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8 (10 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "10 field names truncated at 11 bytes"
+            ]
+          },
+          "crs": "WGS84"
         }
       ],
-      "total_records": 102675
+      "total_records": 68450
     },
     "海南村界": {
       "datasets": [
@@ -2300,7 +2379,7 @@
           "file": "海南村界/海南村界.shp",
           "name": "海南村界.shp",
           "records": 4822,
-          "dbf_date": "2016-09-21",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -2319,17 +2398,21 @@
             },
             {
               "name": "Shape_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
               "name": "Shape_Area",
-              "type": "F",
+              "type": "N",
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 4822
@@ -2388,7 +2471,11 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         }
       ],
@@ -2400,7 +2487,7 @@
           "file": "湖南村界/湖南省村庄面1.shp",
           "name": "湖南省村庄面1.shp",
           "records": 31238,
-          "dbf_date": "2021-04-02",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "FID",
@@ -2473,7 +2560,11 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         }
       ],
@@ -2528,14 +2619,18 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
           "file": "澳门堂区统计区/WGS1984坐标系/澳门统计区（WGS84坐标系）.shp",
           "name": "澳门统计区（WGS84坐标系）.shp",
           "records": 25,
-          "dbf_date": "2022-11-21",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -2618,14 +2713,18 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "Macau_Grid"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         },
         {
           "file": "澳门堂区统计区/澳门方格网坐标/澳门统计区（澳门方格网坐标系）.shp",
           "name": "澳门统计区（澳门方格网坐标系）.shp",
           "records": 25,
-          "dbf_date": "2022-11-21",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -2708,8 +2807,12 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "Macau_Grid"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 61
@@ -2788,7 +2891,13 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8 (10 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "10 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         }
       ],
@@ -2800,7 +2909,7 @@
           "file": "福建村界/35福建省村边界.shp",
           "name": "35福建省村边界.shp",
           "records": 19760,
-          "dbf_date": "2024-03-05",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -2834,7 +2943,7 @@
             },
             {
               "name": "MJ",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
@@ -2884,21 +2993,27 @@
             },
             {
               "name": "省代码",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
               "name": "Shape_Leng",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
               "name": "Shape_Area",
-              "type": "F",
+              "type": "N",
               "length": 19
             }
           ],
-          "encoding": "CP936",
+          "encoding": {
+            "field_names": "UTF-8 (8 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "8 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         }
       ],
@@ -2968,7 +3083,11 @@
               "length": 20
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         }
       ],
@@ -2980,7 +3099,7 @@
           "file": "贵州村界/贵州省各村居界4490.shp",
           "name": "贵州省各村居界4490.shp",
           "records": 19627,
-          "dbf_date": "2023-02-10",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "FID",
@@ -3068,8 +3187,12 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 19627
@@ -3080,7 +3203,7 @@
           "file": "辽宁村界/21辽宁村边界.shp",
           "name": "21辽宁村边界.shp",
           "records": 12976,
-          "dbf_date": "2022-06-02",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "CUNDM",
@@ -3114,7 +3237,7 @@
             },
             {
               "name": "mj",
-              "type": "F",
+              "type": "N",
               "length": 19
             },
             {
@@ -3148,8 +3271,14 @@
               "length": 50
             }
           ],
-          "encoding": "CP936",
-          "crs": "CGCS2000_Albers"
+          "encoding": {
+            "field_names": "UTF-8 (1 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "1 field names truncated at 11 bytes"
+            ]
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 12976
@@ -3160,7 +3289,7 @@
           "file": "重庆村界/重庆市社区村界4490-统计.shp",
           "name": "重庆市社区村界4490-统计.shp",
           "records": 10847,
-          "dbf_date": "2023-05-14",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "FID",
@@ -3213,8 +3342,12 @@
               "length": 20
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 10847
@@ -3248,7 +3381,13 @@
               "length": 19
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "GBK",
+            "issues": [
+              "field values are GBK (not UTF-8)"
+            ]
+          },
           "crs": "WGS84"
         },
         {
@@ -3273,7 +3412,13 @@
               "length": 80
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "GBK",
+            "issues": [
+              "field values are GBK (not UTF-8)"
+            ]
+          },
           "crs": "WGS84"
         },
         {
@@ -3303,7 +3448,13 @@
               "length": 80
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "GBK",
+            "issues": [
+              "field values are GBK (not UTF-8)"
+            ]
+          },
           "crs": "WGS84"
         },
         {
@@ -3328,7 +3479,13 @@
               "length": 80
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "GBK",
+            "issues": [
+              "field values are GBK (not UTF-8)"
+            ]
+          },
           "crs": "WGS84"
         }
       ],
@@ -3340,7 +3497,7 @@
           "file": "青海村界/青海省村级区划4490.shp",
           "name": "青海省村级区划4490.shp",
           "records": 4049,
-          "dbf_date": "2023-03-20",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -3378,8 +3535,12 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 4049
@@ -3390,7 +3551,7 @@
           "file": "香港选区统计区单元区/进一步划分的单元区/进一步划分的单元区.shp",
           "name": "进一步划分的单元区.shp",
           "records": 5088,
-          "dbf_date": "2022-05-06",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "PPU",
@@ -3413,14 +3574,18 @@
               "length": 5
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "Hong_Kong_1980_Grid"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         },
         {
           "file": "香港选区统计区单元区/乡郊代表选举边界/乡郊代表选举边界.shp",
           "name": "乡郊代表选举边界.shp",
           "records": 13,
-          "dbf_date": "2022-05-24",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "NewTown_en",
@@ -3438,8 +3603,12 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "Hong_Kong_1980_Grid"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         },
         {
           "file": "香港选区统计区单元区/若干选区/若干选区.shp",
@@ -3503,14 +3672,18 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
           "file": "香港选区统计区单元区/行政区划/行政区划.shp",
           "name": "行政区划.shp",
           "records": 18,
-          "dbf_date": "2022-11-21",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -3573,8 +3746,12 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "Hong_Kong_1980_Grid"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 5571
@@ -3648,7 +3825,13 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8 (9 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "9 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         },
         {
@@ -3718,7 +3901,13 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8 (9 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "9 field names truncated at 11 bytes"
+            ]
+          },
           "crs": "WGS84"
         },
         {
@@ -3753,7 +3942,11 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
@@ -3788,7 +3981,11 @@
               "length": 254
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
@@ -3833,14 +4030,18 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
           "crs": "WGS84"
         },
         {
           "file": "黑龙江村界-林业局界/黑龙江森工集团/黑龙江省龙江森工集团局场边界/中国龙江森林工业集团林场边界4490.shp",
           "name": "中国龙江森林工业集团林场边界4490.shp",
           "records": 371,
-          "dbf_date": "2023-06-05",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -3883,14 +4084,18 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         },
         {
           "file": "黑龙江村界-林业局界/黑龙江森工集团/黑龙江省龙江森工集团局场边界/中国龙江森林工业集团管局边界4490.shp",
           "name": "中国龙江森林工业集团管局边界4490.shp",
           "records": 29,
-          "dbf_date": "2023-06-05",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -3918,14 +4123,18 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8",
+            "field_values": "UTF-8",
+            "issues": null
+          },
+          "crs": "WGS84"
         },
         {
           "file": "黑龙江村界-林业局界/黑龙江森工集团/黑龙江省北大荒集团边界/黑龙江北大荒农垦集团农场边界4490.shp",
           "name": "黑龙江北大荒农垦集团农场边界4490.shp",
           "records": 206,
-          "dbf_date": "2023-06-05",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID_1",
@@ -3968,14 +4177,20 @@
               "length": 24
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8 (1 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "1 field names truncated at 11 bytes"
+            ]
+          },
+          "crs": "WGS84"
         },
         {
           "file": "黑龙江村界-林业局界/黑龙江森工集团/黑龙江省北大荒集团边界/黑龙江北大荒农垦集团农垦管局边界4490.shp",
           "name": "黑龙江北大荒农垦集团农垦管局边界4490.shp",
           "records": 10,
-          "dbf_date": "2023-06-05",
+          "dbf_date": "2026-06-11",
           "fields": [
             {
               "name": "OBJECTID",
@@ -3993,8 +4208,14 @@
               "length": 50
             }
           ],
-          "encoding": "UTF-8",
-          "crs": "CGCS2000"
+          "encoding": {
+            "field_names": "UTF-8 (1 truncated)",
+            "field_values": "UTF-8",
+            "issues": [
+              "1 field names truncated at 11 bytes"
+            ]
+          },
+          "crs": "WGS84"
         }
       ],
       "total_records": 21298
