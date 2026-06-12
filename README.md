@@ -198,5 +198,5 @@ ogr2ogr -f GPKG output.gpkg input.shp  # CRS 已统一为 WGS84，无需 -t_srs
 
 - 原始分享推文：https://x.com/elpwc/status/2064590494974591226
 - GitHub Release（数据下载）：https://github.com/thedavidweng/china-village-boundaries/releases/tag/v2026.06
-- Zenodo DOI：（待关联 GitHub 后自动生成）
+- Zenodo DOI：[10.5281/zenodo.20664361](https://doi.org/10.5281/zenodo.20664361)
 - Internet Archive：https://archive.org/details/china-village-boundaries-2026
