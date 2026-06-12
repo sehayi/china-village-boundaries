@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# GIS lock files
+*.lock
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS metadata
+__MACOSX/

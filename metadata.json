@@ -1,0 +1,4003 @@
+{
+  "title": "全国村界数据集 / China Village Boundaries Dataset",
+  "original_sharer": {
+    "handle": "@elpwc",
+    "url": "https://x.com/elpwc/status/2064590494974591226"
+  },
+  "curator": {
+    "handle": "@thedavidweng"
+  },
+  "estimated_date_range": "2010-2022 (mostly ~2016)",
+  "license": "CC0-1.0",
+  "copyright_status": "unclear, collected from internet sources",
+  "format": "ESRI Shapefile",
+  "total_provinces": 33,
+  "total_records": 909365,
+  "provinces": {
+    "上海村界": {
+      "datasets": [
+        {
+          "file": "上海村界/2上海村社区界-第二套/上海村居边界WGS84-纠偏.shp",
+          "name": "上海村居边界WGS84-纠偏.shp",
+          "records": 7255,
+          "dbf_date": "2023-04-11",
+          "fields": [
+            {
+              "name": "objectid_1",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "objectid",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "_hex_e68980e5b19ee8a197ef",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "_hex_e68980e5b19ee58cbaef",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭浼氾",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭浼_1",
+              "type": "C",
+              "length": 57
+            },
+            {
+              "name": "备注",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "坐标x",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "坐标y",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "面积",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "琛楅亾浠ｏ",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "类别",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "璐ｄ换缃戯",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "_hex_e68980e5b19ee5a4a7ef",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "特注",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "瀵瑰簲鍗曪",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "鍔熻兘鍖猴",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "_hex_e68980e5b19ee58a9fef",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭锟斤",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "鍔熻兘锟斤",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "_hex_e68980e5b19eefbfbdef",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "琛楅亾锟斤",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "鍘熻閬擄",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "鍘熷眳濮旓",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "类型",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "名称",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "编码",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "琛楅亾鍚嶏",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭浼_2",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "鑷畾涔夛",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭鏍革",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "区代码",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "x中心点",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "y中心点",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "版本号",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "鑷畾锟斤",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "缃戞牸鍚嶏",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "缃戞牸绫伙",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "缃戞牸缂栵",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "鏃у眳濮旓",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "璐ｄ换锟斤",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "璐ｄ换锟_1",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "鏉戝眳绫伙",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "上海村界/2上海村社区界-第二套/上海村居边界WGS84.shp",
+          "name": "上海村居边界WGS84.shp",
+          "records": 7255,
+          "dbf_date": "2023-04-11",
+          "fields": [
+            {
+              "name": "objectid_1",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "objectid",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "_hex_e68980e5b19ee8a197e9",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "_hex_e68980e5b19ee58cbae5",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭浼氫",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭浼氬",
+              "type": "C",
+              "length": 57
+            },
+            {
+              "name": "备注",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "坐标x",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "坐标y",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "面积",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "琛楅亾浠ｇ",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "类别",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "璐ｄ换缃戞",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "_hex_e68980e5b19ee5a4a7e5",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "特注",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "瀵瑰簲鍗曞",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "鍔熻兘鍖轰",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "_hex_e68980e5b19ee58a9fe8",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭浼_1",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "鍔熻兘鍖_1",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "_hex_e68980e5b19ee58a5f31",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "琛楅亾浠_1",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "鍘熻閬撶",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "鍘熷眳濮斾",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "类型",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "名称",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "编码",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "琛楅亾鍚嶇",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭浼氱",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "鑷畾涔夌",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "灞呭鏍告",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "区代码",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "x中心点",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "y中心点",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "版本号",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "鑷畾涔_1",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "缃戞牸鍚嶇",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "缃戞牸绫诲",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "缃戞牸缂栫",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "鏃у眳濮斿",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "璐ｄ换缃_1",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "璐ｄ换缃_2",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "鏉戝眳绫诲",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "上海村界/1上海村社区界/上海村社区界.shp",
+          "name": "上海村社区界.shp",
+          "records": 5601,
+          "dbf_date": "2023-07-30",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "BLOCK_ID",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "STREET_ID",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "BLOCK_NAME",
+              "type": "C",
+              "length": 30
+            },
+            {
+              "name": "GID",
+              "type": "C",
+              "length": 16
+            },
+            {
+              "name": "STREETCODE",
+              "type": "C",
+              "length": 8
+            },
+            {
+              "name": "DISTRICTID",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "BLOCK_CODE",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "STREET_COD",
+              "type": "C",
+              "length": 5
+            },
+            {
+              "name": "BLOCK_CO_1",
+              "type": "C",
+              "length": 3
+            },
+            {
+              "name": "TEMPID",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "Shape_Le_1",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "Shape_Area",
+              "type": "N",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 20111
+    },
+    "云南村界": {
+      "datasets": [
+        {
+          "file": "云南村界/云南省村级界线_GJ.shp",
+          "name": "云南省村级界线_GJ.shp",
+          "records": 13595,
+          "dbf_date": "2021-07-12",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "PAC",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "DISPNAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "FULLNAME",
+              "type": "C",
+              "length": 200
+            },
+            {
+              "name": "UPPAC",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "UPNAME",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "BZ",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "XH",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "X",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "Y",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "SHAPE_AREA",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "SHAPE_LEN",
+              "type": "N",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 13595
+    },
+    "内蒙村界": {
+      "datasets": [
+        {
+          "file": "内蒙村界/内蒙古自治区村界WGS84.shp",
+          "name": "内蒙古自治区村界WGS84.shp",
+          "records": 14570,
+          "dbf_date": "2023-06-20",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 64
+            },
+            {
+              "name": "AREA_CODE",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "CITY_NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "CITY_CODE",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "COUNTY_NAM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "COUNTY_COD",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "TOWN_NAME",
+              "type": "C",
+              "length": 60
+            },
+            {
+              "name": "TOWN_CODE",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "CODE",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "内蒙村界/内蒙村界2000坐标/内蒙古村界2000坐标.shp",
+          "name": "内蒙古村界2000坐标.shp",
+          "records": 14570,
+          "dbf_date": "2023-08-29",
+          "fields": [
+            {
+              "name": "OBJECTID_1",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "OBJECTID",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 64
+            },
+            {
+              "name": "AREA_CODE",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "CITY_NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "CITY_CODE",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "COUNTY_NAM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "COUNTY_COD",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "TOWN_NAME",
+              "type": "C",
+              "length": 60
+            },
+            {
+              "name": "TOWN_CODE",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "CODE",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "Shape_Area",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 29140
+    },
+    "北京村界": {
+      "datasets": [
+        {
+          "file": "北京村界/北京村界.shp",
+          "name": "北京村界.shp",
+          "records": 8021,
+          "dbf_date": "2023-07-30",
+          "fields": [
+            {
+              "name": "BSM",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "N",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 8021
+    },
+    "吉林村界": {
+      "datasets": [
+        {
+          "file": "吉林村界/吉林省国土村界.shp",
+          "name": "吉林省国土村界.shp",
+          "records": 10194,
+          "dbf_date": "2024-03-01",
+          "fields": [
+            {
+              "name": "xzqdm",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "id",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "code",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "name",
+              "type": "C",
+              "length": 200
+            },
+            {
+              "name": "pcode",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "level",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "x",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "y",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "市名",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "县区名",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "县区代",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "县区代_",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "县区码",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "乡镇名",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 20
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 10194
+    },
+    "四川村界": {
+      "datasets": [
+        {
+          "file": "四川村界/四川省_村界.shp",
+          "name": "四川省_村界.shp",
+          "records": 41297,
+          "dbf_date": "2023-07-13",
+          "fields": [
+            {
+              "name": "市级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "村级码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "村级名",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 41297
+    },
+    "天津村界": {
+      "datasets": [
+        {
+          "file": "天津村界/天津市各村居2021.shp",
+          "name": "天津市各村居2021.shp",
+          "records": 5847,
+          "dbf_date": "2022-08-13",
+          "fields": [
+            {
+              "name": "FID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "OBJECTID_1",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "comname",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "comid",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "StreetID",
+              "type": "C",
+              "length": 9
+            },
+            {
+              "name": "StreetName",
+              "type": "C",
+              "length": 60
+            },
+            {
+              "name": "ComSqua",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "Note_",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "ORDate",
+              "type": "C",
+              "length": 24
+            },
+            {
+              "name": "CHDate",
+              "type": "C",
+              "length": 24
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "BZ",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "DistName",
+              "type": "C",
+              "length": 60
+            },
+            {
+              "name": "DistID",
+              "type": "C",
+              "length": 6
+            },
+            {
+              "name": "DSName",
+              "type": "C",
+              "length": 60
+            },
+            {
+              "name": "e",
+              "type": "C",
+              "length": 60
+            },
+            {
+              "name": "Shape_Le_1",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "Shape_Area",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "OBJECTID_2",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "comname_1",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "comid_1",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "StreetNa_1",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "DistName_1",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "DistID_1",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "鏄惁鍐滄",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 5847
+    },
+    "宁夏村界": {
+      "datasets": [
+        {
+          "file": "宁夏村界/宁夏回族自治区村界2021.shp",
+          "name": "宁夏回族自治区村界2021.shp",
+          "records": 2947,
+          "dbf_date": "2023-04-16",
+          "fields": [
+            {
+              "name": "村名",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "乡镇名",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "县名",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "市名",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "村代码",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "乡代码",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "乡镇_12",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "行政村",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "gridcode",
+              "type": "N",
+              "length": 20
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 2947
+    },
+    "安徽村界": {
+      "datasets": [
+        {
+          "file": "安徽村界/安徽省村居界4490.shp",
+          "name": "安徽省村居界4490.shp",
+          "records": 17848,
+          "dbf_date": "2023-05-25",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "SHENG",
+              "type": "C",
+              "length": 2
+            },
+            {
+              "name": "XIAN",
+              "type": "C",
+              "length": 6
+            },
+            {
+              "name": "XIANG",
+              "type": "C",
+              "length": 9
+            },
+            {
+              "name": "CUN",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "SHI",
+              "type": "C",
+              "length": 4
+            },
+            {
+              "name": "SHENG_MC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "SHI_MC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "XIAN_MC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "CUN_MC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "XIANG_MC",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 17848
+    },
+    "山东村界": {
+      "datasets": [
+        {
+          "file": "山东村界/山东村边界.shp",
+          "name": "山东村边界.shp",
+          "records": 85879,
+          "dbf_date": "2023-06-28",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "XZQDM",
+              "type": "N",
+              "length": 12
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "code",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "Krasovsky_1940_Albers"
+        },
+        {
+          "file": "山东村界/山东村边界（修正版）.shp",
+          "name": "山东村边界（修正版）.shp",
+          "records": 85879,
+          "dbf_date": "2024-03-03",
+          "fields": [
+            {
+              "name": "XZQDM",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "code",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "市代码_1",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "县代码_1",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "镇代码_1",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "市名_1",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "县区名_1",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "乡镇名_1",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "Shape_Area",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "CP936",
+          "crs": "Krasovsky_1940_Albers"
+        }
+      ],
+      "total_records": 171758
+    },
+    "山西村界": {
+      "datasets": [
+        {
+          "file": "山西村界/山西省村界.shp",
+          "name": "山西省村界.shp",
+          "records": 30778,
+          "dbf_date": "2024-03-11",
+          "fields": [
+            {
+              "name": "xzqdm",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "x",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "y",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "省级名",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "省级码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "地市名",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "地市码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县名",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇名",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "村级码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "村级名",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 30778
+    },
+    "广东村界": {
+      "datasets": [
+        {
+          "file": "广东村界/中山市村边界/中山市.shp",
+          "name": "中山市.shp",
+          "records": 292,
+          "dbf_date": "2023-05-06",
+          "fields": [
+            {
+              "name": "FID_1",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "PAC",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "广东村界/遂溪县村边界/遂溪县.shp",
+          "name": "遂溪县.shp",
+          "records": 272,
+          "dbf_date": "2023-05-12",
+          "fields": [
+            {
+              "name": "FID_1",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "PAC",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "广东村界/惠州市/惠州数据.shp",
+          "name": "惠州数据.shp",
+          "records": 1514,
+          "dbf_date": "2023-05-08",
+          "fields": [
+            {
+              "name": "FID_1",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "PAC",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "广东村界/广东全省/广东省CJ.shp",
+          "name": "广东省CJ.shp",
+          "records": 26245,
+          "dbf_date": "2024-03-03",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 9
+            },
+            {
+              "name": "PAC",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "省级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "Shape_Area",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "省级区划代",
+              "type": "N",
+              "length": 16
+            },
+            {
+              "name": "省级名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市级区划代",
+              "type": "N",
+              "length": 16
+            },
+            {
+              "name": "市级名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县级区划",
+              "type": "N",
+              "length": 16
+            },
+            {
+              "name": "区县名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇级区划",
+              "type": "N",
+              "length": 16
+            },
+            {
+              "name": "乡镇街道名",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "街道码",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "CP936",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 28323
+    },
+    "广西村界": {
+      "datasets": [
+        {
+          "file": "广西村界/广西壮族自治区村居界4490.shp",
+          "name": "广西壮族自治区村居界4490.shp",
+          "records": 21403,
+          "dbf_date": "2023-05-27",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "name",
+              "type": "C",
+              "length": 60
+            },
+            {
+              "name": "code",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 60
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 21403
+    },
+    "新疆村界": {
+      "datasets": [
+        {
+          "file": "新疆村界/新疆维吾尔自治区村界WGS84-2021B.shp",
+          "name": "新疆维吾尔自治区村界WGS84-2021B.shp",
+          "records": 15591,
+          "dbf_date": "2023-12-24",
+          "fields": [
+            {
+              "name": "gml_id",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "zldwdm",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "zldwmc",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "sheng",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "sheng_name",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "shi",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "shi_name",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "xian",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "xian_name",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "xiang",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "xiang_name",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "cun",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "cun_name",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "nd",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "renderer",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "x_max",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "x_min",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "y_max",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "y_min",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "xzq_lx",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "xzq_jb",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "xzq_sy",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "canton_ext",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 15591
+    },
+    "江苏村界": {
+      "datasets": [
+        {
+          "file": "江苏村界/江苏省行政村.shp",
+          "name": "江苏省行政村.shp",
+          "records": 22841,
+          "dbf_date": "2023-04-13",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "CODE",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "ENTIID",
+              "type": "C",
+              "length": 64
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "FROMENTIID",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SOURCE",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "BORNTIME",
+              "type": "C",
+              "length": 8
+            },
+            {
+              "name": "ELEMID",
+              "type": "C",
+              "length": 64
+            },
+            {
+              "name": "adcode",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "citycode",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "adname",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "cityname",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "area",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 22841
+    },
+    "江西村界": {
+      "datasets": [
+        {
+          "file": "江西村界/江西省村界-旧 缺失南昌市部分等/江西省村界WGS84.shp",
+          "name": "江西省村界WGS84.shp",
+          "records": 20421,
+          "dbf_date": "2023-06-03",
+          "fields": [
+            {
+              "name": "gml_id",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "area_code",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "area_name",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "parent_are",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "area_level",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "area_lev_1",
+              "type": "N",
+              "length": 10
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "GEOGCS[\"WGS 84\", DATUM[\"World Geodetic System 1984\", SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AU"
+        },
+        {
+          "file": "江西村界/江西省村界-新/江西CJ.shp",
+          "name": "江西CJ.shp",
+          "records": 21109,
+          "dbf_date": "2024-03-06",
+          "fields": [
+            {
+              "name": "BSM",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "N",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 41530
+    },
+    "河北村界": {
+      "datasets": [
+        {
+          "file": "河北村界/河北省行政村界1.shp",
+          "name": "河北省行政村界1.shp",
+          "records": 58399,
+          "dbf_date": "2024-04-04",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 9
+            },
+            {
+              "name": "DJZQDM",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "DJZQMC",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "省级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "省代码",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "Shape_Area",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "CP936",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 58399
+    },
+    "河南村界": {
+      "datasets": [
+        {
+          "file": "河南村界/河南村界wgs1984.shp",
+          "name": "河南村界wgs1984.shp",
+          "records": 50371,
+          "dbf_date": "2022-08-29",
+          "fields": [
+            {
+              "name": "OBJECTID_1",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "村代码",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "村名称",
+              "type": "C",
+              "length": 45
+            },
+            {
+              "name": "乡镇代",
+              "type": "C",
+              "length": 9
+            },
+            {
+              "name": "乡镇名",
+              "type": "C",
+              "length": 30
+            },
+            {
+              "name": "县区代",
+              "type": "C",
+              "length": 6
+            },
+            {
+              "name": "县区名",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "市区名",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 30
+            },
+            {
+              "name": "带号",
+              "type": "C",
+              "length": 6
+            },
+            {
+              "name": "SHAPE_LENG",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "SHAPE_Le_1",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "N",
+              "length": 19
+            }
+          ],
+          "encoding": "CP936",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 50371
+    },
+    "浙江村界": {
+      "datasets": [
+        {
+          "file": "浙江村界/1浙江省村界/浙江村界.shp",
+          "name": "浙江村界.shp",
+          "records": 34225,
+          "dbf_date": "2023-07-30",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "sqbm",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "sqmc",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "xzqdm",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "xzqmc",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        },
+        {
+          "file": "浙江村界/2浙江省村界1/浙江村界.shp",
+          "name": "浙江村界.shp",
+          "records": 34225,
+          "dbf_date": "2023-10-06",
+          "fields": [
+            {
+              "name": "省级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "省代码",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "村级",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "村代码",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "CP936",
+          "crs": "CGCS2000"
+        },
+        {
+          "file": "浙江村界/3浙江村界-备注省市县乡/浙江村界.shp",
+          "name": "浙江村界.shp",
+          "records": 34225,
+          "dbf_date": "2023-10-06",
+          "fields": [
+            {
+              "name": "省级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "省代码",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "村级",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "村代码",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "CP936",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 102675
+    },
+    "海南村界": {
+      "datasets": [
+        {
+          "file": "海南村界/海南村界.shp",
+          "name": "海南村界.shp",
+          "records": 4822,
+          "dbf_date": "2016-09-21",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 9
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "Shape_Area",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 4822
+    },
+    "湖北村界": {
+      "datasets": [
+        {
+          "file": "湖北村界/湖北村边界.shp",
+          "name": "湖北村边界.shp",
+          "records": 32457,
+          "dbf_date": "2023-07-23",
+          "fields": [
+            {
+              "name": "FID_1",
+              "type": "N",
+              "length": 19
+            },
+            {
+              "name": "OBJECTID",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SHAPE_LEN",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "DSJGZQYMC",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "XZJGZQYMC",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "CJGZQYMC",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SJGZQYMC",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "QXJGZQYMC",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SHAPE_AREA",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 32457
+    },
+    "湖南村界": {
+      "datasets": [
+        {
+          "file": "湖南村界/湖南省村庄面1.shp",
+          "name": "湖南省村庄面1.shp",
+          "records": 31238,
+          "dbf_date": "2021-04-02",
+          "fields": [
+            {
+              "name": "FID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "CJDCQDM",
+              "type": "C",
+              "length": 19
+            },
+            {
+              "name": "CJDCQMC",
+              "type": "C",
+              "length": 90
+            },
+            {
+              "name": "DCMJ",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "JSMJ",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "MSSM",
+              "type": "C",
+              "length": 2
+            },
+            {
+              "name": "HDMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "BZ",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "XZXZQDM",
+              "type": "C",
+              "length": 9
+            },
+            {
+              "name": "XZXZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "XJXZQDM",
+              "type": "C",
+              "length": 6
+            },
+            {
+              "name": "XJXZQMC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "SJXZQDM",
+              "type": "C",
+              "length": 4
+            },
+            {
+              "name": "SJXZQMC",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 31238
+    },
+    "澳门堂区统计区": {
+      "datasets": [
+        {
+          "file": "澳门堂区统计区/行政区划/行政区划.shp",
+          "name": "行政区划.shp",
+          "records": 11,
+          "dbf_date": "2022-11-21",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "FID_1",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "CNAME",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "PNAME",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SNAME",
+              "type": "C",
+              "length": 200
+            },
+            {
+              "name": "GlobalID",
+              "type": "C",
+              "length": 38
+            },
+            {
+              "name": "Shape.STAr",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "Shape.STLe",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "澳门堂区统计区/WGS1984坐标系/澳门统计区（WGS84坐标系）.shp",
+          "name": "澳门统计区（WGS84坐标系）.shp",
+          "records": 25,
+          "dbf_date": "2022-11-21",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "ZONA",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "POPULATION",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "DENSITY",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "FLAT_SUM",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "FLAT_EMP",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "FLAT_OCC",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "FAMILY",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "ELDERLY",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "ELDERLY_RA",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "CNAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "PNAME",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SNAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "webmap.WMC",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "Shape.STAr",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "Shape.STLe",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "Macau_Grid"
+        },
+        {
+          "file": "澳门堂区统计区/澳门方格网坐标/澳门统计区（澳门方格网坐标系）.shp",
+          "name": "澳门统计区（澳门方格网坐标系）.shp",
+          "records": 25,
+          "dbf_date": "2022-11-21",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "ZONA",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "POPULATION",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "DENSITY",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "FLAT_SUM",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "FLAT_EMP",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "FLAT_OCC",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "FAMILY",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "ELDERLY",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "ELDERLY_RA",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "CNAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "PNAME",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SNAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "webmap.WMC",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "Shape.STAr",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "Shape.STLe",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "Macau_Grid"
+        }
+      ],
+      "total_records": 61
+    },
+    "甘肃村界": {
+      "datasets": [
+        {
+          "file": "甘肃村界/甘肃省村界.shp",
+          "name": "甘肃省村界.shp",
+          "records": 18600,
+          "dbf_date": "2024-03-11",
+          "fields": [
+            {
+              "name": "xzqdm",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "x",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "y",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "村级名",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "村级码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇名",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "地市级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "地市码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "省级名",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "省级码",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 18600
+    },
+    "福建村界": {
+      "datasets": [
+        {
+          "file": "福建村界/35福建省村边界.shp",
+          "name": "35福建省村边界.shp",
+          "records": 19760,
+          "dbf_date": "2024-03-05",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 9
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "CUNDM",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "CUNMC",
+              "type": "C",
+              "length": 30
+            },
+            {
+              "name": "YGDM",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "MJ",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "CZCUNDM",
+              "type": "C",
+              "length": 64
+            },
+            {
+              "name": "CZCUNMC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "省级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "区县码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇级",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡镇码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "省代码",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "Shape_Area",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "CP936",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 19760
+    },
+    "西藏村界": {
+      "datasets": [
+        {
+          "file": "西藏村界/西藏自治区国土三调村界.shp",
+          "name": "西藏自治区国土三调村界.shp",
+          "records": 5638,
+          "dbf_date": "2024-03-11",
+          "fields": [
+            {
+              "name": "ID",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "code",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "name",
+              "type": "C",
+              "length": 200
+            },
+            {
+              "name": "pcode",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "x",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "y",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "xmin",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "ymin",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "xmax",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "ymax",
+              "type": "N",
+              "length": 11
+            },
+            {
+              "name": "xzqdm",
+              "type": "C",
+              "length": 20
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 5638
+    },
+    "贵州村界": {
+      "datasets": [
+        {
+          "file": "贵州村界/贵州省各村居界4490.shp",
+          "name": "贵州省各村居界4490.shp",
+          "records": 19627,
+          "dbf_date": "2023-02-10",
+          "fields": [
+            {
+              "name": "FID",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "FID_XZXQ",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "BSM",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "YSDM",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "KZMJ",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "JSMJ",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "MSSM",
+              "type": "C",
+              "length": 2
+            },
+            {
+              "name": "XJDM",
+              "type": "C",
+              "length": 9
+            },
+            {
+              "name": "XJMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "XJDM1",
+              "type": "C",
+              "length": 6
+            },
+            {
+              "name": "XJMC1",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "DQDM",
+              "type": "C",
+              "length": 4
+            },
+            {
+              "name": "DQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "BZ",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 19627
+    },
+    "辽宁村界": {
+      "datasets": [
+        {
+          "file": "辽宁村界/21辽宁村边界.shp",
+          "name": "21辽宁村边界.shp",
+          "records": 12976,
+          "dbf_date": "2022-06-02",
+          "fields": [
+            {
+              "name": "CUNDM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "CUNMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "QXDM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "QXMC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "YJDY",
+              "type": "C",
+              "length": 2
+            },
+            {
+              "name": "SFKX",
+              "type": "C",
+              "length": 2
+            },
+            {
+              "name": "mj",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "DSDM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "X",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "Y",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "741村1",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "741村2",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "新",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "CP936",
+          "crs": "CGCS2000_Albers"
+        }
+      ],
+      "total_records": 12976
+    },
+    "重庆村界": {
+      "datasets": [
+        {
+          "file": "重庆村界/重庆市社区村界4490-统计.shp",
+          "name": "重庆市社区村界4490-统计.shp",
+          "records": 10847,
+          "dbf_date": "2023-05-14",
+          "fields": [
+            {
+              "name": "FID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "QXMC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "QXDM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "XZJMC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "XZJDM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "SQCMC",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "SQCDM",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "Shape_Leng",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "Shape_Area",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "OBJECTID_1",
+              "type": "N",
+              "length": 20
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 10847
+    },
+    "陕西村界": {
+      "datasets": [
+        {
+          "file": "陕西村界/陕西省村界/C_陕西省.shp",
+          "name": "C_陕西省.shp",
+          "records": 28200,
+          "dbf_date": "2018-06-10",
+          "fields": [
+            {
+              "name": "BSM",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "F",
+              "length": 19
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "F",
+              "length": 19
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "陕西村界/陕西省_行政边界市界/陕西省_行政边界市界.shp",
+          "name": "陕西省_行政边界市界.shp",
+          "records": 10,
+          "dbf_date": "2022-10-21",
+          "fields": [
+            {
+              "name": "Name",
+              "type": "C",
+              "length": 80
+            },
+            {
+              "name": "Layer",
+              "type": "C",
+              "length": 80
+            },
+            {
+              "name": "Code",
+              "type": "C",
+              "length": 80
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "陕西村界/陕西省_行政边界乡镇界/陕西乡镇界.shp",
+          "name": "陕西乡镇界.shp",
+          "records": 1435,
+          "dbf_date": "1995-07-26",
+          "fields": [
+            {
+              "name": "name",
+              "type": "C",
+              "length": 80
+            },
+            {
+              "name": "area",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "perimeter",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "desc",
+              "type": "C",
+              "length": 80
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "陕西村界/陕西省_行政边界区县界/陕西省_行政边界区县界.shp",
+          "name": "陕西省_行政边界区县界.shp",
+          "records": 107,
+          "dbf_date": "2022-10-21",
+          "fields": [
+            {
+              "name": "Name",
+              "type": "C",
+              "length": 80
+            },
+            {
+              "name": "Layer",
+              "type": "C",
+              "length": 80
+            },
+            {
+              "name": "Code",
+              "type": "C",
+              "length": 80
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        }
+      ],
+      "total_records": 29752
+    },
+    "青海村界": {
+      "datasets": [
+        {
+          "file": "青海村界/青海省村级区划4490.shp",
+          "name": "青海省村级区划4490.shp",
+          "records": 4049,
+          "dbf_date": "2023-03-20",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "OID_",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "XZBM",
+              "type": "C",
+              "length": 40
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 24
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 200
+            },
+            {
+              "name": "KZMJ",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "JSMJ",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 4049
+    },
+    "香港选区统计区单元区": {
+      "datasets": [
+        {
+          "file": "香港选区统计区单元区/进一步划分的单元区/进一步划分的单元区.shp",
+          "name": "进一步划分的单元区.shp",
+          "records": 5088,
+          "dbf_date": "2022-05-06",
+          "fields": [
+            {
+              "name": "PPU",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "SPU",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "TPU",
+              "type": "N",
+              "length": 10
+            },
+            {
+              "name": "Subunit",
+              "type": "N",
+              "length": 5
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "Hong_Kong_1980_Grid"
+        },
+        {
+          "file": "香港选区统计区单元区/乡郊代表选举边界/乡郊代表选举边界.shp",
+          "name": "乡郊代表选举边界.shp",
+          "records": 13,
+          "dbf_date": "2022-05-24",
+          "fields": [
+            {
+              "name": "NewTown_en",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "NewTown_Tc",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "NewTown_Sc",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "Hong_Kong_1980_Grid"
+        },
+        {
+          "file": "香港选区统计区单元区/若干选区/若干选区.shp",
+          "name": "若干选区.shp",
+          "records": 452,
+          "dbf_date": "2022-11-21",
+          "fields": [
+            {
+              "name": "id",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "CACODE",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "ENAME",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "CNAME",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "DISTRICT_T",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "DISTRICT_E",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SHAPE_AREA",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "SHAPE_LEN",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "DISTRICT_C",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "HK80X",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "HK80Y",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "香港选区统计区单元区/行政区划/行政区划.shp",
+          "name": "行政区划.shp",
+          "records": 18,
+          "dbf_date": "2022-11-21",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "CSDI_ADMIN",
+              "type": "C",
+              "length": 200
+            },
+            {
+              "name": "AREA_TYPE",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "AREA_ID",
+              "type": "C",
+              "length": 20
+            },
+            {
+              "name": "AREA_CODE",
+              "type": "C",
+              "length": 5
+            },
+            {
+              "name": "NAME_TC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "NAME_EN",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "DATA_OWNER",
+              "type": "C",
+              "length": 40
+            },
+            {
+              "name": "BEGIN_LIFE",
+              "type": "C",
+              "length": 24
+            },
+            {
+              "name": "END_LIFESP",
+              "type": "C",
+              "length": 24
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "Hong_Kong_1980_Grid"
+        }
+      ],
+      "total_records": 5571
+    },
+    "黑龙江村界-林业局界": {
+      "datasets": [
+        {
+          "file": "黑龙江村界-林业局界/黑龙江省统计村界/黑龙江省村界 - 纠偏.shp",
+          "name": "黑龙江省村界 - 纠偏.shp",
+          "records": 10159,
+          "dbf_date": "2023-11-03",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "村代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "村名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "县代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "县名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "备注",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "黑龙江村界-林业局界/黑龙江省统计村界/黑龙江省村界.shp",
+          "name": "黑龙江省村界.shp",
+          "records": 10159,
+          "dbf_date": "2023-11-02",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "村代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "村名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "乡名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "县代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "县名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "备注",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市代码",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "市名称",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "黑龙江村界-林业局界/黑龙江森工集团/大兴安岭森工林业局林场数据/大兴安岭森工林业局边界WGS84.shp",
+          "name": "大兴安岭森工林业局边界WGS84.shp",
+          "records": 18,
+          "dbf_date": "2023-12-19",
+          "fields": [
+            {
+              "name": "lin_ye_ju",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "LIN_YE_JU_",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "黑龙江村界-林业局界/黑龙江森工集团/大兴安岭森工林业局林场数据/大兴安岭森工林场边界WGS84.shp",
+          "name": "大兴安岭森工林场边界WGS84.shp",
+          "records": 127,
+          "dbf_date": "2023-12-19",
+          "fields": [
+            {
+              "name": "LIN_CHANG",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "LIN_CHANG_",
+              "type": "C",
+              "length": 254
+            },
+            {
+              "name": "NAME",
+              "type": "C",
+              "length": 254
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "黑龙江村界-林业局界/黑龙江森工集团/伊春森工集团/伊春森工局场界WGS84.shp",
+          "name": "伊春森工局场界WGS84.shp",
+          "records": 219,
+          "dbf_date": "2023-05-31",
+          "fields": [
+            {
+              "name": "OBJECTID_1",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 24
+            },
+            {
+              "name": "LIN_YE_JU",
+              "type": "C",
+              "length": 6
+            },
+            {
+              "name": "LIN_CHANG",
+              "type": "C",
+              "length": 3
+            },
+            {
+              "name": "LYJ_NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "LC_NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "OBJECTID_2",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "WGS84"
+        },
+        {
+          "file": "黑龙江村界-林业局界/黑龙江森工集团/黑龙江省龙江森工集团局场边界/中国龙江森林工业集团林场边界4490.shp",
+          "name": "中国龙江森林工业集团林场边界4490.shp",
+          "records": 371,
+          "dbf_date": "2023-06-05",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "BSM",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "YSDM",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "MS",
+              "type": "C",
+              "length": 250
+            },
+            {
+              "name": "XZQM",
+              "type": "C",
+              "length": 60
+            },
+            {
+              "name": "妫伐绠″",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        },
+        {
+          "file": "黑龙江村界-林业局界/黑龙江森工集团/黑龙江省龙江森工集团局场边界/中国龙江森林工业集团管局边界4490.shp",
+          "name": "中国龙江森林工业集团管局边界4490.shp",
+          "records": 29,
+          "dbf_date": "2023-06-05",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "LIN_YE_JU",
+              "type": "C",
+              "length": 6
+            },
+            {
+              "name": "LYJ_NAME",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "SHENG",
+              "type": "C",
+              "length": 2
+            },
+            {
+              "name": "area",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        },
+        {
+          "file": "黑龙江村界-林业局界/黑龙江森工集团/黑龙江省北大荒集团边界/黑龙江北大荒农垦集团农场边界4490.shp",
+          "name": "黑龙江北大荒农垦集团农场边界4490.shp",
+          "records": 206,
+          "dbf_date": "2023-06-05",
+          "fields": [
+            {
+              "name": "OBJECTID_1",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "BSM",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "YSDM",
+              "type": "C",
+              "length": 10
+            },
+            {
+              "name": "XZQDM",
+              "type": "C",
+              "length": 12
+            },
+            {
+              "name": "XZQMC",
+              "type": "C",
+              "length": 100
+            },
+            {
+              "name": "管局名",
+              "type": "C",
+              "length": 50
+            },
+            {
+              "name": "TDMJ",
+              "type": "N",
+              "length": 24
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        },
+        {
+          "file": "黑龙江村界-林业局界/黑龙江森工集团/黑龙江省北大荒集团边界/黑龙江北大荒农垦集团农垦管局边界4490.shp",
+          "name": "黑龙江北大荒农垦集团农垦管局边界4490.shp",
+          "records": 10,
+          "dbf_date": "2023-06-05",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "Id",
+              "type": "N",
+              "length": 20
+            },
+            {
+              "name": "管局名",
+              "type": "C",
+              "length": 50
+            }
+          ],
+          "encoding": "UTF-8",
+          "crs": "CGCS2000"
+        }
+      ],
+      "total_records": 21298
+    }
+  }
+}
