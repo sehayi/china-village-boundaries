@@ -8,7 +8,7 @@ Village-level administrative boundary spatial data for all of mainland China, Ho
 
 ## Data Source
 
-- **Original sharer**: [@elpwc](https://x.com/elpwc/status/2064590494974591226) (shared via [cloud storage](https://x.com/elpwc/status/2064590494974591226))
+- **Original sharer**: [@elpwc](https://x.com/elpwc) (shared via [cloud storage](https://x.com/elpwc/status/2064590494974591226))
 - **Curator / re-uploader**: [@thedavidweng](https://x.com/thedavidweng)
 - **Estimated time span**: Data collected between 2010–2022, mostly circa 2016
 - **Origin**: Gathered from public internet sources. Exact provenance unknown. Some data may originate from China's Third National Land Survey and related government open data
