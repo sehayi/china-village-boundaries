@@ -1,6 +1,6 @@
 # 全国村界数据集 / China Village Boundaries Dataset
 
-**中文** | [English](README.en.md)
+**中文** | [English](README.en.md) | [日本語](README.ja.md)
 
 ## 概述
 

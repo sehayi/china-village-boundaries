@@ -1,6 +1,6 @@
 # China Village Boundaries Dataset
 
-**[中文](README.md)** | English
+**[中文](README.md)** | English | **[日本語](README.ja.md)**
 
 ## Overview
 
